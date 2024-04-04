@@ -1,0 +1,43 @@
+
+In Python, variables are used to store data values. Unlike some other programming languages, Python is dynamically typed, meaning you don't need to declare the type of a variable when you create one. Python infers the type of the variable based on the value assigned to it. Here are some commonly used data types in Python:
+
+1. Numeric Types:
+int: Integers, e.g., x = 5
+float: Floating-point numbers, e.g., y = 3.14
+complex: Complex numbers, e.g., z = 2 + 3j
+
+2. Sequence Types:
+str: Strings, e.g., name = "John"
+list: Ordered and mutable collections of items, e.g., my_list = [1, 2, 3]
+tuple: Ordered and immutable collections of items, e.g., my_tuple = (1, 2, 3)
+
+3. Mapping Type:
+dict: Collection of key-value pairs, e.g., my_dict = {'a': 1, 'b': 2}
+
+4. Set Types:
+set: Unordered and mutable collection of unique items, e.g., my_set = {1, 2, 3}
+frozenset: Unordered and immutable collection of unique items, e.g., my_frozenset = frozenset({1, 2, 3})
+
+5. Boolean Type:
+bool: Boolean values True or False, e.g., is_valid = True
+
+6. None Type:
+None: Represents the absence of a value or a null value, e.g., x = None
+
+7. Sequence Types (Binary):
+bytes: Immutable sequence of bytes, e.g., b = b"hello"
+bytearray: Mutable sequence of bytes, e.g., ba = bytearray(b"hello")
+
+8. Other Data Types:
+datetime: Represents dates and times, e.g., import datetime; dt = datetime.datetime.now()
+function: Represents a function, e.g., def my_function(): pass; f = my_function
+Type Conversion:
+You can convert between different data types using built-in functions like int(), float(), str(), list(), tuple(), dict(), etc.
+
+Dynamic Typing:
+Variables in Python can change types as different values are assigned to them. For example:
+
+python
+Copy code
+x = 5      # x is an integer
+x = "hello"  # now x is a string
