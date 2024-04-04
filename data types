@@ -31,6 +31,7 @@ bytearray: Mutable sequence of bytes, e.g., ba = bytearray(b"hello")
 8. Other Data Types:
 datetime: Represents dates and times, e.g., import datetime; dt = datetime.datetime.now()
 function: Represents a function, e.g., def my_function(): pass; f = my_function
+
 Type Conversion:
 You can convert between different data types using built-in functions like int(), float(), str(), list(), tuple(), dict(), etc.
 
